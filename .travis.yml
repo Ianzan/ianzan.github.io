@@ -5,8 +5,6 @@ node_js:
 cache: npm
 before_install:
   - npm install -g hexo-cli
-install:
-  - npm install
   - npm install hexo-deployer-git --save
 branches:
   only:
